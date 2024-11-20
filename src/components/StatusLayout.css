@@ -1,0 +1,56 @@
+.status-layout {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    padding: 32px;
+  }
+  
+  .status-column {
+    padding: 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+  }
+  
+  .status-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .status-header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .status-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .status-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .status-count {
+    font-size: 14px;
+    margin-left: 8px;
+  }
+  
+  .status-header-right {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+  }
+  
+  .status-actions img {
+    cursor: pointer;
+  }
+  
+  .status-card {
+    margin-top: 16px;
+  }
+  

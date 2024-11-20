@@ -1,0 +1,154 @@
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 8px;
+  }
+  
+  .menu {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .menu-button {
+    display: inline-flex;
+  }
+  
+  .menu-button-content {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.375rem;
+    border-radius: 0.25rem;
+    background: white;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: gray;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #d1d5db;
+    cursor: pointer;
+  }
+  
+  .chevron-icon {
+    margin-left: -0.25rem;
+    height: 1.25rem;
+    width: 1.25rem;
+    color: gray;
+  }
+  
+  .menu-items {
+    position: absolute;
+    z-index: 10;
+    margin-top: 0.5rem;
+    width: 7.5rem;
+    border-radius: 0.25rem;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+    outline: none;
+  }
+  
+  .menu-section {
+    display: flex;
+    padding: 0.25rem;
+  }
+  
+  .menu-title {
+    padding: 0.5rem;
+    color: gray;
+  }
+    
+  .main-content {
+    flex: 1;
+    margin-top: 8px;
+    background:rgb(232, 232, 232);
+    color: black;
+  }
+  
+  
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+.menu {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+}
+
+.menu-button {
+  display: inline-flex;
+}
+
+.menu-button-content {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.375rem;
+  border-radius: 0.25rem;
+  background: white;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: gray;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #d1d5db;
+  cursor: pointer;
+}
+
+.chevron-icon {
+  margin-left: -0.25rem;
+  height: 1.25rem;
+  width: 1.25rem;
+  color: gray;
+}
+
+.menu-items {
+  position: absolute;
+  z-index: 10;
+  margin-top: 0.5rem;
+  width: 7.5rem;
+  border-radius: 0.25rem;
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+  outline: none;
+}
+
+.menu-section {
+  display: flex;.main-content {
+    flex: 1;
+    margin-top: 8px;
+    background:gray;
+    color: black;
+  }
+  padding: 0.25rem;
+}
+
+.menu-title {
+  padding: 0.5rem;
+  color: gray;
+}
+  
+
+
